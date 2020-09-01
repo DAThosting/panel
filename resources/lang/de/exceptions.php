@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'daemon_connection_failed' => 'There was an exception while attempting to communicate with the daemon resulting in a HTTP/:code response code. This exception has been logged.',
+    'daemon_connection_failed' => 'Beim Versuch, mit dem Daemon zu kommunizieren, ist ein Fehler aufgetreten, der Antwortcode lautet HTTP/:code. Dieser Fehler wurde protokolliert.',
     'node' => [
-        'servers_attached' => 'A node must have no servers linked to it in order to be deleted.',
+        'servers_attached' => 'Mit einem Node dürfen keine Server verbunden sein, um gelöscht zu werden.',
         'daemon_off_config_updated' => 'The daemon configuration <strong>has been updated</strong>, however there was an error encountered while attempting to automatically update the configuration file on the Daemon. You will need to manually update the configuration file (core.json) for the daemon to apply these changes.',
     ],
     'allocations' => [
